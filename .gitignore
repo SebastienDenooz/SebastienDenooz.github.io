@@ -1,5 +1,6 @@
 _site/
 .sass-cache/
+css/*.css
 # Created by https://www.gitignore.io/api/phpstorm
 
 ### PhpStorm ###
