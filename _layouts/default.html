@@ -8,29 +8,14 @@
     </head>
 
     <body>
-
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-7">
-					{{ content }}
-					<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet at eos eveniet exercitationem explicabo ipsam iste minus, nisi odio officiis perspiciatis placeat sed similique sunt tempora temporibus tenetur ut.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet at eos eveniet exercitationem explicabo ipsam iste minus, nisi odio officiis perspiciatis placeat sed similique sunt tempora temporibus tenetur ut.</p>
-					<img src="http://fakeimg.pl/350x200/?text=Hello">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet at eos eveniet exercitationem explicabo ipsam iste minus, nisi odio officiis perspiciatis placeat sed similique sunt tempora temporibus tenetur ut.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet at eos eveniet exercitationem explicabo ipsam iste minus, nisi odio officiis perspiciatis placeat sed similique sunt tempora temporibus tenetur ut.</p>
-					<img src="http://fakeimg.pl/150x200/?text=HuHu">
-				</div>
-				<div class="col-md-4">
-					{% include header.html %}
-				</div>
-			</div>
-		</div>
-
+    <div class="container">
+        {% include header.html %}
+		
+        {{ content }}
 
         {% include footer.html %}
         {% include before_end_body.html %}
-
+    </div>
     </body>
 
 </html>
